@@ -1,7 +1,14 @@
+.moviesContainer {
+   border: #E1523D 1px solid;
+   padding: 0 10px;
+}
+
 .movieText {
-   color: black;
+   color: #003547;
+   text-align: left;
 }
 
 .movieHeading {
-   color: black;
+   text-align: left;
+   color: #E1523D;
 }
