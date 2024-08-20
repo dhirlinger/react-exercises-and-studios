@@ -1,12 +1,12 @@
-export default function HobbyIntroduction () {
-   return(
-      <div>
-         <h2>3 Fun Facts About Needlepoint</h2>
-         <ol>
-            <li>Needlepoint uses a specialized canvas as it's base.</li>
-            <li>The most basic stitch is called a tent stitch.</li>
-            <li>Needlepoint uses a lot of different kinds of fibers.</li>
-         </ol>
-      </div>
-   );
+export default function HobbyIntroduction() {
+    return(
+        <div>
+            <h2>Three Fun Facts About B-Ball</h2>
+            <ol>
+                <li>Dribbling was not originally allowed in basketball</li>
+                <li>3 point shots weren't a part of the NBA game until the 1979-80 season</li>
+                <li>Early professional games were played in cages made of chicken wire and mesh </li>
+            </ol>
+        </div>
+    );
 }
