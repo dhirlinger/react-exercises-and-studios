@@ -1,7 +1,11 @@
 import recipedata from "./recipe.json";
 
+const name = recipedata[0].name;
 function RecipeName() {
-  return recipedata;
+  
+  return(
+    <h1></h1>
+  );
 }
 
 export default RecipeName;
