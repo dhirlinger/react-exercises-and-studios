@@ -1,10 +1,9 @@
 import recipedata from "./recipe.json";
 
-const name = recipedata[0].name;
 function RecipeName() {
   
   return(
-    <h1></h1>
+    <h1>{recipedata[0].name}</h1>
   );
 }
 

@@ -1,6 +1,6 @@
 function ClickedButton() {
   function handleClick() {
-    alert("You are saving this pin!");
+    alert("This pin is no longer saved!");
   }
   return (
     <button id="clickedButton" onClick={handleClick}>
