@@ -5,7 +5,7 @@ import { useState } from 'react';
 export default function StatusChange () {
 
    const [notes, setNotes] = useState("");
-   const [recipeStatus, setRecipeStatus] = useState(true);
+   const [recipeStatus, setRecipeStatus] = useState(false);
 
    const handleChange = (event) => {
       setNotes(event.target.value);
@@ -24,7 +24,7 @@ export default function StatusChange () {
             <input type="submit" />
          </form>
 
-         {setRecipeStatus ? <p>{notes}</p> : <p>My Recipe Notes aren't here!</p>}
+         {recipeStatus ? <p>{notes}{console.log("true")}</p> : <p>My Recipe Notes aren't here!</p>}
 
          <p>I have not tried this recipe!</p>
       </div>
